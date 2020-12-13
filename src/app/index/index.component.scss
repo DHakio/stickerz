@@ -1,0 +1,24 @@
+@import "../scss/variables.scss";
+@import "../scss/mixin.scss";
+
+.test {
+    height: 25rem;
+    background: url('/assets/images/test.png');
+    background-size: cover;
+}
+button {
+    @include fantaButton
+}
+.card{
+    width: 10rem;
+    height: 10rem;
+    --bs-gutter-x : 0;
+}
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.459);
+}
+.transi {
+    background-color: darken($color-primary, 20%);
+    height: 0.01rem;
+    width: 20vw;
+}
