@@ -14,6 +14,8 @@ import { ProfileComponent } from './profile/profile.component';
 import { IndexComponent } from './index/index.component';
 import { ProductsComponent } from './products/products.component';
 import { CardComponent } from './products/card/card.component';
+import { LostPasswordComponent } from './auth/lost-password/lost-password.component';
+import { CategoryCardComponent } from './products/category-card/category-card.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import { CardComponent } from './products/card/card.component';
     IndexComponent,
     ProductsComponent,
     CardComponent,
+    LostPasswordComponent,
+    CategoryCardComponent
   ],
   imports: [
     BrowserModule,
